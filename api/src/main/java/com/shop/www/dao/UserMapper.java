@@ -1,5 +1,7 @@
 package com.shop.www.dao;
 
+import java.util.List;
+
 import com.shop.www.pojo.User;
 
 public interface UserMapper {
@@ -9,7 +11,7 @@ public interface UserMapper {
 
     int insertSelective(User record);
 
-    User selectByPrimaryKey(Long id);
+    List<User> selectAll();
 
     int updateByPrimaryKeySelective(User record);
 

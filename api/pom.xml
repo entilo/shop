@@ -6,7 +6,12 @@
 		<artifactId>shop</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
+
+
 	<artifactId>api</artifactId>
+	<packaging>jar</packaging>
+	<groupId>${parent.groupId}</groupId>
+	<version>${parent.version}</version>
 
 	<dependencies>
 		<dependency>

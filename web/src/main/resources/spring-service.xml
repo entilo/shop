@@ -27,9 +27,9 @@
 				rollback-for="Exception" />
 		</tx:attributes>
 	</tx:advice>
-	<aop:config>
+	<!-- <aop:config>
 		<aop:pointcut expression="execution(* com.crm.www.crm.main.service.impl.*.*(..))"
 			id="pointcut" />
 		<aop:advisor advice-ref="txAdvice" pointcut-ref="pointcut" />
-	</aop:config>
+	</aop:config> -->
 </beans>

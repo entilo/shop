@@ -72,4 +72,12 @@ public class User {
     public void setUpdated(Date updated) {
         this.updated = updated;
     }
+
+	@Override
+	public String toString() {
+		return "User [id=" + id + ", username=" + username + ", password=" + password + ", phone=" + phone + ", email="
+				+ email + ", created=" + created + ", updated=" + updated + "]";
+	}
+    
+    
 }

@@ -26,6 +26,7 @@
 		<!-- Spring -->
 		<spring.version>4.0.0.RELEASE</spring.version>
 		<aspectjweaver.version>1.8.10</aspectjweaver.version>
+		<javax.injected.version>1</javax.injected.version>
 		<!-- Logging -->
 		<slf4j.version>1.7.5</slf4j.version>
 		<!-- Sql -->
@@ -192,6 +193,11 @@
 			<artifactId>spring-test</artifactId>
 			<version>${spring.version}</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+		    <groupId>javax.inject</groupId>
+		    <artifactId>javax.inject</artifactId>
+		    <version>${javax.injected.version}</version>
 		</dependency>
 
 		<!-- JSP -->

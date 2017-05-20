@@ -1,17 +1,23 @@
 package com.shop.www.dao;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.fail;
+
+import java.util.List;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration("classpath:spring-dao.xml")
+import com.shop.www.pojo.User;
 
-// 测试类还是该在有相关xml的地方进行测试:如web模块
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration("classpath*:spring-dao.xml")
 public class UserMapperTest {
+
+	@Autowired
+	UserMapper userMapper;
 
 	@Test
 	public void testDeleteByPrimaryKey() {
@@ -29,8 +35,11 @@ public class UserMapperTest {
 	}
 
 	@Test
-	public void testSelectByPrimaryKey() {
-		fail("Not yet implemented");
+	public void testSelectAll() {
+		List<User> userList = userMapper.selectAll();
+		for (User user : userList) {
+			System.out.println(user);
+		}
 	}
 
 	@Test

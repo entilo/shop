@@ -6,7 +6,12 @@
 		<artifactId>shop</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
+	
+	
 	<artifactId>model</artifactId>
+	<packaging>jar</packaging>
+	<groupId>${parent.groupId}</groupId>
+	<version>${parent.version}</version>
 
 	<build>
 		<plugins>
