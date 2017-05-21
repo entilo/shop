@@ -2,6 +2,10 @@ package com.shop.www.pojo;
 
 import java.util.Date;
 
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement(name = "Person")
 public class User {
     private Long id;
 
@@ -17,6 +21,7 @@ public class User {
 
     private Date updated;
 
+    @XmlElement(name="id")
     public Long getId() {
         return id;
     }
@@ -24,7 +29,7 @@ public class User {
     public void setId(Long id) {
         this.id = id;
     }
-
+    @XmlElement(name="userName")
     public String getUsername() {
         return username;
     }
