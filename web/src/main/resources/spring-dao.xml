@@ -36,11 +36,7 @@
 		<property name="dataSource" ref="dataSource_main" />
 		<property name="typeAliasesPackage" value="com.shop.www.pojo" />
 		<property name="configLocation" value="classpath:mybatis-config.xml" />
-		<property name="mapperLocations">
-			<array>
-				<value>classpath:com/shop/www/dao/impl/*Mapper.xml</value>
-			</array>
-		</property>
+		<property name="mapperLocations" value="classpath:com/shop/www/dao/impl/*Mapper.xml"></property>
 	</bean>
 
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
@@ -48,6 +44,6 @@
 		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory_main" />
 	</bean>
 
-	
+
 
 </beans>

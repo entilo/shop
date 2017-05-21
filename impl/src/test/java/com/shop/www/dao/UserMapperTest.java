@@ -1,6 +1,5 @@
 package com.shop.www.dao;
 
-import static org.junit.Assert.fail;
 
 import java.util.List;
 
@@ -26,12 +25,10 @@ public class UserMapperTest {
 
 	@Test
 	public void testInsert() {
-		fail("Not yet implemented");
 	}
 
 	@Test
 	public void testInsertSelective() {
-		fail("Not yet implemented");
 	}
 
 	@Test
@@ -44,12 +41,10 @@ public class UserMapperTest {
 
 	@Test
 	public void testUpdateByPrimaryKeySelective() {
-		fail("Not yet implemented");
 	}
 
 	@Test
 	public void testUpdateByPrimaryKey() {
-		fail("Not yet implemented");
 	}
 
 }
