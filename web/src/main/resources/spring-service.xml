@@ -9,24 +9,24 @@
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
 
 	<!-- 扫描 -->
-	<context:component-scan base-package="com.crm.www.crm.main.service" />
-
+<!-- 	<context:component-scan base-package="com.shop.www.service" />
+ -->
 	
 	<!-- 事务管理器 -->
-	<bean id="txManager"
+<!-- 	<bean id="txManager"
 		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
 		<property name="dataSource" ref="dataSource_main" />
-	</bean>
+	</bean> -->
 
 	<!-- 切面 -->
-	<tx:advice id="txAdvice" transaction-manager="txManager">
+<!-- 	<tx:advice id="txAdvice" transaction-manager="txManager">
 		<tx:attributes>
 			<tx:method name="delete" propagation="REQUIRED" />
 			<tx:method name="list" read-only="false" />
 			<tx:method name="insert*" propagation="REQUIRED"
 				rollback-for="Exception" />
 		</tx:attributes>
-	</tx:advice>
+	</tx:advice> -->
 	<!-- <aop:config>
 		<aop:pointcut expression="execution(* com.crm.www.crm.main.service.impl.*.*(..))"
 			id="pointcut" />
