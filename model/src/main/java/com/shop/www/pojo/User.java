@@ -2,10 +2,9 @@ package com.shop.www.pojo;
 
 import java.util.Date;
 
-import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement(name = "Person")
+@XmlRootElement(name = "User")  
 public class User {
     private Long id;
 

@@ -13,7 +13,7 @@ import com.shop.www.pojo.User;
 public interface UserService {
 
 	@GET
-	@Produces(MediaType.APPLICATION_JSON)
+	@Produces({MediaType.APPLICATION_XML,MediaType.APPLICATION_JSON})
 	@Path("/searchUser/{id}")
 	User getUserBuId(@PathParam("id")Integer Id);
 }
