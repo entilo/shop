@@ -3,4 +3,4 @@ clean
 install
 jetty:run
 
-访问路径:http://localhost:8080/index.jsp(不加项目名)
+访问路径:http://localhost:8080/web http://localhost:8080/web/rest

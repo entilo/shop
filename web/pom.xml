@@ -56,13 +56,13 @@
                 <artifactId>jetty-maven-plugin</artifactId>
 				<configuration>
 					<webAppConfig>
-						<!--jetty插件启动后的访问路径: http://localhost:8080/testdemo -->
+						<!--jetty插件启动后的访问路径: http://localhost:8080/web -->
 						<contextPath>/${project.artifactId}</contextPath>
 					</webAppConfig>
 						<scanIntervalSeconds>20</scanIntervalSeconds>
 						<connectors>
 							<connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
-								<port>8088</port>
+								<port>8080</port>
 								<maxIdleTime>60000</maxIdleTime>
 							</connector>
 						</connectors>

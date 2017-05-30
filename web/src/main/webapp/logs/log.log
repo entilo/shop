@@ -12822,3 +12822,34 @@ Payload: <application xmlns="http://wadl.dev.java.net/2009/02" xmlns:xs="http://
 </xs:schema>
 </grammars><resources base="http://localhost:8088/web/rest/userServiceAddr"><resource path="/userService"><resource path="/searchUser/{id}"><param name="id" style="template" type="xs:int"/><method name="GET"><request></request><response><representation mediaType="application/xml"/><representation mediaType="application/json"/></response></method></resource></resource></resources></application>
 --------------------------------------
+[INFO] [2017-05-30 22:38:27][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 3
+Address: http://127.0.0.1:8088/web/rest/userServiceAddr?_wadl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:8088], Referer=[http://127.0.0.1:8088/web/rest], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[INFO] [2017-05-30 22:38:27][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 3
+Response-Code: 200
+Content-Type: 
+Headers: {Content-Type=[application/xml], Date=[Tue, 30 May 2017 14:38:27 GMT]}
+Payload: <application xmlns="http://wadl.dev.java.net/2009/02" xmlns:xs="http://www.w3.org/2001/XMLSchema"><grammars><xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="unqualified">
+    <xs:element name="User" type="user"/>
+    <xs:complexType name="user">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="created" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="email" type="xs:string"/>
+            <xs:element minOccurs="0" name="id" type="xs:long"/>
+            <xs:element minOccurs="0" name="password" type="xs:string"/>
+            <xs:element minOccurs="0" name="phone" type="xs:string"/>
+            <xs:element minOccurs="0" name="updated" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="username" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
+</grammars><resources base="http://localhost:8088/web/rest/userServiceAddr"><resource path="/userService"><resource path="/searchUser/{id}"><param name="id" style="template" type="xs:int"/><method name="GET"><request></request><response><representation mediaType="application/xml"/><representation mediaType="application/json"/></response></method></resource></resource></resources></application>
+--------------------------------------
