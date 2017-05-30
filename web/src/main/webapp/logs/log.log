@@ -10831,3 +10831,1994 @@ Headers: {Date=[Thu, 25 May 2017 15:42:15 GMT], Content-Length=[0]}
 [INFO] [2017-05-30 21:48:28][com.mchange.v2.log.MLog]MLog clients using log4j logging.
 [INFO] [2017-05-30 21:48:28][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
 [INFO] [2017-05-30 21:48:28][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO] [2017-05-30 22:00:01][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2017-05-30 22:00:01][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue May 30 22:00:01 SGT 2017]; root of context hierarchy
+[INFO] [2017-05-30 22:00:01][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-dao.xml]
+[INFO] [2017-05-30 22:00:02][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-mvc.xml]
+[INFO] [2017-05-30 22:00:02][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-others.xml]
+[INFO] [2017-05-30 22:00:02][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-redis.xml]
+[INFO] [2017-05-30 22:00:02][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-restws.xml]
+[INFO] [2017-05-30 22:00:02][org.springframework.beans.factory.support.DefaultListableBeanFactory]Overriding bean definition for bean 'mvcContentNegotiationManager': replacing [Root bean: class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+[INFO] [2017-05-30 22:00:02][org.springframework.beans.factory.support.DefaultListableBeanFactory]Overriding bean definition for bean 'mvcUriComponentsContributor': replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+[INFO] [2017-05-30 22:00:02][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-service.xml]
+[INFO] [2017-05-30 22:00:02][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2017-05-30 22:00:02][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [redis.properties]
+[INFO] [2017-05-30 22:00:02][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-05-30 22:00:03][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO] [2017-05-30 22:00:03][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO] [2017-05-30 22:00:04][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO] [2017-05-30 22:00:06][org.apache.cxf.endpoint.ServerImpl]Setting the server's publish address to be /userServiceAddr
+[INFO] [2017-05-30 22:00:06][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 4442 ms
+[INFO] [2017-05-30 22:11:50][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'shopSpringMVC': initialization started
+[INFO] [2017-05-30 22:11:50][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'shopSpringMVC-servlet': startup date [Tue May 30 22:11:50 SGT 2017]; parent: Root WebApplicationContext
+[INFO] [2017-05-30 22:11:50][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2017-05-30 22:11:50][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'shopSpringMVC': initialization completed in 43 ms
+[INFO] [2017-05-30 22:12:22][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8088/web/rest/userServiceAddr?_wadl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], connection=[keep-alive], Content-Type=[null], Cookie=[JSESSIONID=1kulgaj8esr9dinoi9vr98rqf], Host=[localhost:8088], Referer=[http://localhost:8088/web/rest], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:12:23][org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor]No root resource matching request path /web/rest/userServiceAddr has been found, Relative Path: /. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:12:23][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:122)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:169)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:12:23][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 1
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Tue, 30 May 2017 14:12:23 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:12:23][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8088/web/rest/userServiceAddr?_wadl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Cookie=[JSESSIONID=1kulgaj8esr9dinoi9vr98rqf], Host=[localhost:8088], Referer=[http://localhost:8088/web/rest], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:12:23][org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor]No root resource matching request path /web/rest/userServiceAddr has been found, Relative Path: /. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:12:23][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:122)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:169)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:12:23][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 2
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Tue, 30 May 2017 14:12:23 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:12:32][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 3
+Address: http://localhost:8088/web/rest/userServiceAddr?_wadl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Cookie=[JSESSIONID=1kulgaj8esr9dinoi9vr98rqf], Host=[localhost:8088], Referer=[http://localhost:8088/web/rest], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:12:32][org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor]No root resource matching request path /web/rest/userServiceAddr has been found, Relative Path: /. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:12:32][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:122)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:169)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:12:32][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 3
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Tue, 30 May 2017 14:12:32 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:13:51][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'shopSpringMVC-servlet': startup date [Tue May 30 22:11:50 SGT 2017]; parent: Root WebApplicationContext
+[INFO] [2017-05-30 22:13:51][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Tue May 30 22:00:01 SGT 2017]; root of context hierarchy
+[INFO] [2017-05-30 22:13:57][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2017-05-30 22:13:57][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue May 30 22:13:57 SGT 2017]; root of context hierarchy
+[INFO] [2017-05-30 22:13:57][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-dao.xml]
+[INFO] [2017-05-30 22:13:57][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-mvc.xml]
+[INFO] [2017-05-30 22:13:57][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-others.xml]
+[INFO] [2017-05-30 22:13:57][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-redis.xml]
+[INFO] [2017-05-30 22:13:57][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-restws.xml]
+[INFO] [2017-05-30 22:13:57][org.springframework.beans.factory.support.DefaultListableBeanFactory]Overriding bean definition for bean 'mvcContentNegotiationManager': replacing [Root bean: class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+[INFO] [2017-05-30 22:13:57][org.springframework.beans.factory.support.DefaultListableBeanFactory]Overriding bean definition for bean 'mvcUriComponentsContributor': replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+[INFO] [2017-05-30 22:13:58][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-service.xml]
+[INFO] [2017-05-30 22:13:58][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2017-05-30 22:13:58][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [redis.properties]
+[INFO] [2017-05-30 22:13:58][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-05-30 22:13:58][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO] [2017-05-30 22:13:58][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO] [2017-05-30 22:13:58][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO] [2017-05-30 22:14:00][org.apache.cxf.endpoint.ServerImpl]Setting the server's publish address to be /userServiceAddr
+[INFO] [2017-05-30 22:14:00][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 2885 ms
+[INFO] [2017-05-30 22:14:04][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Tue May 30 22:13:57 SGT 2017]; root of context hierarchy
+[INFO] [2017-05-30 22:14:09][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2017-05-30 22:14:09][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue May 30 22:14:09 SGT 2017]; root of context hierarchy
+[INFO] [2017-05-30 22:14:09][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-dao.xml]
+[INFO] [2017-05-30 22:14:09][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-mvc.xml]
+[INFO] [2017-05-30 22:14:09][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-others.xml]
+[INFO] [2017-05-30 22:14:09][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-redis.xml]
+[INFO] [2017-05-30 22:14:09][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-restws.xml]
+[INFO] [2017-05-30 22:14:09][org.springframework.beans.factory.support.DefaultListableBeanFactory]Overriding bean definition for bean 'mvcContentNegotiationManager': replacing [Root bean: class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+[INFO] [2017-05-30 22:14:09][org.springframework.beans.factory.support.DefaultListableBeanFactory]Overriding bean definition for bean 'mvcUriComponentsContributor': replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+[INFO] [2017-05-30 22:14:09][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-service.xml]
+[INFO] [2017-05-30 22:14:09][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2017-05-30 22:14:09][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [redis.properties]
+[INFO] [2017-05-30 22:14:09][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-05-30 22:14:09][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO] [2017-05-30 22:14:09][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO] [2017-05-30 22:14:10][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO] [2017-05-30 22:14:11][org.apache.cxf.endpoint.ServerImpl]Setting the server's publish address to be /userServiceAddr
+[INFO] [2017-05-30 22:14:11][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 2221 ms
+[INFO] [2017-05-30 22:15:35][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8088/web/rest/userServiceAddr?_wadl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Cookie=[JSESSIONID=1kulgaj8esr9dinoi9vr98rqf], Host=[localhost:8088], Referer=[http://localhost:8088/web/rest], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:15:35][org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor]No root resource matching request path /web/rest/userServiceAddr has been found, Relative Path: /. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:15:35][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:122)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:169)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:15:35][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 1
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Tue, 30 May 2017 14:15:35 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:17:27][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8088/web/rest/userServiceAddr?_wadl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Cookie=[JSESSIONID=1kulgaj8esr9dinoi9vr98rqf], Host=[localhost:8088], Referer=[http://localhost:8088/web/rest], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:17:27][org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor]No root resource matching request path /web/rest/userServiceAddr has been found, Relative Path: /. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:17:27][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:122)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:169)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:17:27][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 2
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Tue, 30 May 2017 14:17:27 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:18:27][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 3
+Address: http://localhost:8088/web/rest/userServiceAddr?_wadl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], connection=[keep-alive], Content-Type=[null], Cookie=[JSESSIONID=1kulgaj8esr9dinoi9vr98rqf], Host=[localhost:8088], Referer=[http://localhost:8088/web/rest], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:18:27][org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor]No root resource matching request path /web/rest/userServiceAddr has been found, Relative Path: /. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:18:27][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:122)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:169)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:18:27][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 3
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Tue, 30 May 2017 14:18:27 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:18:44][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 4
+Address: http://localhost:8088/web/rest/userServiceAddr
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], connection=[keep-alive], Content-Type=[null], Cookie=[JSESSIONID=1kulgaj8esr9dinoi9vr98rqf], Host=[localhost:8088], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:18:44][org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor]No root resource matching request path /web/rest/userServiceAddr has been found, Relative Path: /. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:18:44][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:122)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:169)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:18:44][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 4
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Tue, 30 May 2017 14:18:44 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:18:44][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 5
+Address: http://localhost:8088/web/rest/userServiceAddr
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Cookie=[JSESSIONID=1kulgaj8esr9dinoi9vr98rqf], Host=[localhost:8088], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:18:44][org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor]No root resource matching request path /web/rest/userServiceAddr has been found, Relative Path: /. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:18:44][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:122)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:169)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:18:44][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 5
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Tue, 30 May 2017 14:18:44 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:19:15][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Tue May 30 22:14:09 SGT 2017]; root of context hierarchy
+[INFO] [2017-05-30 22:19:20][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2017-05-30 22:19:20][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue May 30 22:19:20 SGT 2017]; root of context hierarchy
+[INFO] [2017-05-30 22:19:20][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-dao.xml]
+[INFO] [2017-05-30 22:19:20][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-mvc.xml]
+[INFO] [2017-05-30 22:19:20][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-others.xml]
+[INFO] [2017-05-30 22:19:20][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-redis.xml]
+[INFO] [2017-05-30 22:19:20][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-restws.xml]
+[INFO] [2017-05-30 22:19:20][org.springframework.beans.factory.support.DefaultListableBeanFactory]Overriding bean definition for bean 'mvcContentNegotiationManager': replacing [Root bean: class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+[INFO] [2017-05-30 22:19:20][org.springframework.beans.factory.support.DefaultListableBeanFactory]Overriding bean definition for bean 'mvcUriComponentsContributor': replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+[INFO] [2017-05-30 22:19:20][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-service.xml]
+[INFO] [2017-05-30 22:19:21][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2017-05-30 22:19:21][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [redis.properties]
+[INFO] [2017-05-30 22:19:21][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-05-30 22:19:21][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO] [2017-05-30 22:19:21][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO] [2017-05-30 22:19:21][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO] [2017-05-30 22:19:22][org.apache.cxf.endpoint.ServerImpl]Setting the server's publish address to be /userServiceAddr
+[INFO] [2017-05-30 22:19:22][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 2181 ms
+[WARN] [2017-05-30 22:20:39][org.apache.cxf.transport.servlet.ServletController]Can't find the the request for http://localhost:8088/web/rest//'s Observer 
+[INFO] [2017-05-30 22:20:48][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8088/web/rest/userServiceAddr?_wadl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], connection=[keep-alive], Content-Type=[null], Cookie=[JSESSIONID=1kulgaj8esr9dinoi9vr98rqf], Host=[localhost:8088], Referer=[http://localhost:8088/web/rest/], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:20:48][org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor]No root resource matching request path /web/rest/userServiceAddr has been found, Relative Path: /. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:20:48][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:122)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:169)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:20:48][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 1
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Tue, 30 May 2017 14:20:48 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:20:48][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8088/web/rest/userServiceAddr?_wadl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Cookie=[JSESSIONID=1kulgaj8esr9dinoi9vr98rqf], Host=[localhost:8088], Referer=[http://localhost:8088/web/rest/], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:20:48][org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor]No root resource matching request path /web/rest/userServiceAddr has been found, Relative Path: /. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:20:48][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:122)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:169)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:20:48][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 2
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Tue, 30 May 2017 14:20:48 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:22:29][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 3
+Address: http://localhost:8088/web/rest/userServiceAddr?_wadl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Cookie=[JSESSIONID=1kulgaj8esr9dinoi9vr98rqf], Host=[localhost:8088], Referer=[http://localhost:8088/web/rest/], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:22:29][org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor]No root resource matching request path /web/rest/userServiceAddr has been found, Relative Path: /. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:22:29][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:122)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:169)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:22:29][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 3
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Tue, 30 May 2017 14:22:29 GMT], Content-Length=[0]}
+--------------------------------------
+[WARN] [2017-05-30 22:22:35][org.apache.cxf.transport.servlet.ServletController]Can't find the the request for http://localhost:8088/web/rest/userServiceAddr%E3%80%82wadl's Observer 
+[WARN] [2017-05-30 22:22:39][org.apache.cxf.transport.servlet.ServletController]Can't find the the request for http://localhost:8088/web/rest/userServiceAddr.wadl's Observer 
+[WARN] [2017-05-30 22:22:47][org.apache.cxf.transport.servlet.ServletController]Can't find the the request for http://localhost:8088/web/rest/userServiceAddr_wadl's Observer 
+[INFO] [2017-05-30 22:23:55][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 4
+Address: http://127.0.0.1:8088/web/rest/userServiceAddr?_wadl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:8088], Referer=[http://127.0.0.1:8088/web/rest], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:23:55][org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor]No root resource matching request path /web/rest/userServiceAddr has been found, Relative Path: /. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:23:55][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:122)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:169)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:23:55][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 4
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Tue, 30 May 2017 14:23:55 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:23:55][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 5
+Address: http://127.0.0.1:8088/web/rest/userServiceAddr?_wadl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:8088], Referer=[http://127.0.0.1:8088/web/rest], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:23:55][org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor]No root resource matching request path /web/rest/userServiceAddr has been found, Relative Path: /. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:23:55][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:122)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:169)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:23:55][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 5
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Tue, 30 May 2017 14:23:55 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:24:18][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 6
+Address: http://127.0.0.1:8088/web/rest/userServiceAddr/searchUser/1
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:8088], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:24:18][org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor]No root resource matching request path /web/rest/userServiceAddr/searchUser/1 has been found, Relative Path: /searchUser/1. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:24:18][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:122)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:169)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:24:18][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 6
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Tue, 30 May 2017 14:24:18 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:24:18][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 7
+Address: http://127.0.0.1:8088/web/rest/userServiceAddr/searchUser/1
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:8088], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:24:18][org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor]No root resource matching request path /web/rest/userServiceAddr/searchUser/1 has been found, Relative Path: /searchUser/1. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:24:18][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:122)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:169)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:24:18][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 7
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Tue, 30 May 2017 14:24:18 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:24:20][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 8
+Address: http://127.0.0.1:8088/web/rest/userServiceAddr/searchUser/1
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:8088], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:24:20][org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor]No root resource matching request path /web/rest/userServiceAddr/searchUser/1 has been found, Relative Path: /searchUser/1. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:24:20][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:122)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:169)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:24:20][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 8
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Tue, 30 May 2017 14:24:20 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:24:27][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 9
+Address: http://127.0.0.1:8088/web/rest/userServiceAddr/searchUser/1
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:8088], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:24:27][org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor]No root resource matching request path /web/rest/userServiceAddr/searchUser/1 has been found, Relative Path: /searchUser/1. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:24:27][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:122)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:169)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:24:27][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 9
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Tue, 30 May 2017 14:24:27 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:25:02][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 10
+Address: http://127.0.0.1:8088/web/rest/userServiceAddr/searchUser/1
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:8088], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:25:02][org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor]No root resource matching request path /web/rest/userServiceAddr/searchUser/1 has been found, Relative Path: /searchUser/1. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:25:02][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:122)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:169)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:25:02][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 10
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Tue, 30 May 2017 14:25:02 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:25:47][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 11
+Address: http://127.0.0.1:8088/web/rest/userServiceAddr/userService/searchUser/1
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:8088], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[INFO] [2017-05-30 22:25:48][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 11
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Tue, 30 May 2017 14:25:47 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><email>email</email><id>123</id><username>userName</username></User>
+--------------------------------------
+[INFO] [2017-05-30 22:25:50][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 12
+Address: http://127.0.0.1:8088/web/rest/userServiceAddr/userService/searchUser/1
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:8088], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[INFO] [2017-05-30 22:25:50][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 12
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Tue, 30 May 2017 14:25:50 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><email>email</email><id>123</id><username>userName</username></User>
+--------------------------------------
+[INFO] [2017-05-30 22:26:09][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 13
+Address: http://127.0.0.1:8088/web/rest/userServiceAddr/userService/searchUser/1
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:8088], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[INFO] [2017-05-30 22:26:09][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 13
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Tue, 30 May 2017 14:26:09 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><email>email</email><id>123</id><username>userName</username></User>
+--------------------------------------
+[INFO] [2017-05-30 22:26:25][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 14
+Address: http://127.0.0.1:8088/web/rest/userServiceAddr/userService
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:8088], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:26:25][org.apache.cxf.jaxrs.utils.JAXRSUtils]No operation matching request path "/web/rest/userServiceAddr/userService" is found, Relative Path: /, HTTP Method: GET, ContentType: */*, Accept: text/html,application/xhtml+xml,image/webp,application/xml;q=0.9,*/*;q=0.8,. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:26:25][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.ClientErrorException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:162)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:528)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:177)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:26:25][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 14
+Response-Code: 404
+Content-Type: 
+Headers: {Allow=[GET, OPTIONS, HEAD], Date=[Tue, 30 May 2017 14:26:25 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:26:25][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 15
+Address: http://127.0.0.1:8088/web/rest/userServiceAddr/userService
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:8088], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:26:25][org.apache.cxf.jaxrs.utils.JAXRSUtils]No operation matching request path "/web/rest/userServiceAddr/userService" is found, Relative Path: /, HTTP Method: GET, ContentType: */*, Accept: text/html,application/xhtml+xml,image/webp,application/xml;q=0.9,*/*;q=0.8,. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:26:25][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.ClientErrorException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:162)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:528)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:177)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:26:25][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 15
+Response-Code: 404
+Content-Type: 
+Headers: {Allow=[GET, OPTIONS, HEAD], Date=[Tue, 30 May 2017 14:26:25 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:26:27][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 16
+Address: http://127.0.0.1:8088/web/rest/userServiceAddr/userService
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:8088], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:26:27][org.apache.cxf.jaxrs.utils.JAXRSUtils]No operation matching request path "/web/rest/userServiceAddr/userService" is found, Relative Path: /, HTTP Method: GET, ContentType: */*, Accept: text/html,application/xhtml+xml,image/webp,application/xml;q=0.9,*/*;q=0.8,. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:26:27][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.ClientErrorException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:162)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:528)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:177)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:26:27][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 16
+Response-Code: 404
+Content-Type: 
+Headers: {Allow=[GET, OPTIONS, HEAD], Date=[Tue, 30 May 2017 14:26:27 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:26:39][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 17
+Address: http://127.0.0.1:8088/web/rest/userServiceAddr?_wadl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:8088], Referer=[http://127.0.0.1:8088/web/rest], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:26:39][org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor]No root resource matching request path /web/rest/userServiceAddr has been found, Relative Path: /. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:26:39][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:122)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:169)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:26:39][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 17
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Tue, 30 May 2017 14:26:39 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:26:39][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 18
+Address: http://127.0.0.1:8088/web/rest/userServiceAddr?_wadl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:8088], Referer=[http://127.0.0.1:8088/web/rest], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:26:39][org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor]No root resource matching request path /web/rest/userServiceAddr has been found, Relative Path: /. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:26:39][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toNotFoundException(SpecExceptions.java:89)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toNotFoundException(ExceptionUtils.java:122)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:169)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:26:39][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 18
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Tue, 30 May 2017 14:26:39 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:26:47][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 19
+Address: http://127.0.0.1:8088/web/rest/userServiceAddr/userService?_wadl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:8088], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:26:47][org.apache.cxf.jaxrs.utils.JAXRSUtils]No operation matching request path "/web/rest/userServiceAddr/userService" is found, Relative Path: /, HTTP Method: GET, ContentType: */*, Accept: text/html,application/xhtml+xml,image/webp,application/xml;q=0.9,*/*;q=0.8,. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:26:47][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.ClientErrorException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:162)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:528)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:177)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:26:47][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 19
+Response-Code: 404
+Content-Type: 
+Headers: {Allow=[GET, OPTIONS, HEAD], Date=[Tue, 30 May 2017 14:26:47 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:26:47][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 20
+Address: http://127.0.0.1:8088/web/rest/userServiceAddr/userService?_wadl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:8088], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:26:47][org.apache.cxf.jaxrs.utils.JAXRSUtils]No operation matching request path "/web/rest/userServiceAddr/userService" is found, Relative Path: /, HTTP Method: GET, ContentType: */*, Accept: text/html,application/xhtml+xml,image/webp,application/xml;q=0.9,*/*;q=0.8,. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:26:47][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.ClientErrorException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:162)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:528)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:177)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:26:47][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 20
+Response-Code: 404
+Content-Type: 
+Headers: {Allow=[GET, OPTIONS, HEAD], Date=[Tue, 30 May 2017 14:26:47 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:26:50][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 21
+Address: http://127.0.0.1:8088/web/rest/userServiceAddr/userService?_wadl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:8088], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:26:50][org.apache.cxf.jaxrs.utils.JAXRSUtils]No operation matching request path "/web/rest/userServiceAddr/userService" is found, Relative Path: /, HTTP Method: GET, ContentType: */*, Accept: text/html,application/xhtml+xml,image/webp,application/xml;q=0.9,*/*;q=0.8,. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:26:50][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.ClientErrorException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:162)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:528)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:177)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:26:50][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 21
+Response-Code: 404
+Content-Type: 
+Headers: {Allow=[GET, OPTIONS, HEAD], Date=[Tue, 30 May 2017 14:26:50 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:27:06][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 22
+Address: http://127.0.0.1:8088/web/rest/userServiceAddr/userService/searchUser?_wadl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:8088], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:27:06][org.apache.cxf.jaxrs.utils.JAXRSUtils]No operation matching request path "/web/rest/userServiceAddr/userService/searchUser" is found, Relative Path: /searchUser, HTTP Method: GET, ContentType: */*, Accept: text/html,application/xhtml+xml,image/webp,application/xml;q=0.9,*/*;q=0.8,. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:27:06][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.ClientErrorException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:162)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:528)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:177)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:27:06][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 22
+Response-Code: 404
+Content-Type: 
+Headers: {Allow=[GET, OPTIONS, HEAD], Date=[Tue, 30 May 2017 14:27:06 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:27:06][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 23
+Address: http://127.0.0.1:8088/web/rest/userServiceAddr/userService/searchUser?_wadl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:8088], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[WARN] [2017-05-30 22:27:06][org.apache.cxf.jaxrs.utils.JAXRSUtils]No operation matching request path "/web/rest/userServiceAddr/userService/searchUser" is found, Relative Path: /searchUser, HTTP Method: GET, ContentType: */*, Accept: text/html,application/xhtml+xml,image/webp,application/xml;q=0.9,*/*;q=0.8,. Please enable FINE/TRACE log level for more details.
+[WARN] [2017-05-30 22:27:06][org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper]javax.ws.rs.ClientErrorException: HTTP 404 Not Found
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:162)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:528)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:177)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:77)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:251)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:171)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:293)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:217)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:268)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:366)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+[INFO] [2017-05-30 22:27:06][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 23
+Response-Code: 404
+Content-Type: 
+Headers: {Allow=[GET, OPTIONS, HEAD], Date=[Tue, 30 May 2017 14:27:06 GMT], Content-Length=[0]}
+--------------------------------------
+[INFO] [2017-05-30 22:27:10][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 24
+Address: http://127.0.0.1:8088/web/rest/userServiceAddr/userService/searchUser/1
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:8088], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[INFO] [2017-05-30 22:27:10][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 24
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Tue, 30 May 2017 14:27:10 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><email>email</email><id>123</id><username>userName</username></User>
+--------------------------------------
+[INFO] [2017-05-30 22:35:51][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Tue May 30 22:19:20 SGT 2017]; root of context hierarchy
+[INFO] [2017-05-30 22:36:41][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2017-05-30 22:36:41][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Tue May 30 22:36:41 SGT 2017]; root of context hierarchy
+[INFO] [2017-05-30 22:36:41][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-dao.xml]
+[INFO] [2017-05-30 22:36:41][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-mvc.xml]
+[INFO] [2017-05-30 22:36:41][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-others.xml]
+[INFO] [2017-05-30 22:36:41][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-redis.xml]
+[INFO] [2017-05-30 22:36:41][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-restws.xml]
+[INFO] [2017-05-30 22:36:41][org.springframework.beans.factory.support.DefaultListableBeanFactory]Overriding bean definition for bean 'mvcContentNegotiationManager': replacing [Root bean: class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+[INFO] [2017-05-30 22:36:41][org.springframework.beans.factory.support.DefaultListableBeanFactory]Overriding bean definition for bean 'mvcUriComponentsContributor': replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+[INFO] [2017-05-30 22:36:41][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\web\target\classes\spring-service.xml]
+[INFO] [2017-05-30 22:36:41][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2017-05-30 22:36:41][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [redis.properties]
+[INFO] [2017-05-30 22:36:41][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-05-30 22:36:42][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO] [2017-05-30 22:36:42][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO] [2017-05-30 22:36:42][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO] [2017-05-30 22:36:44][org.apache.cxf.endpoint.ServerImpl]Setting the server's publish address to be /userServiceAddr
+[INFO] [2017-05-30 22:36:44][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 3212 ms
+[INFO] [2017-05-30 22:36:53][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 1
+Address: http://127.0.0.1:8088/web/rest/userServiceAddr/userService/searchUser/1
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:8088], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[INFO] [2017-05-30 22:36:53][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Tue, 30 May 2017 14:36:53 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><email>email</email><id>123</id><username>userName</username></User>
+--------------------------------------
+[INFO] [2017-05-30 22:37:00][org.apache.cxf.interceptor.LoggingInInterceptor]Inbound Message
+----------------------------
+ID: 2
+Address: http://127.0.0.1:8088/web/rest/userServiceAddr?_wadl
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8], accept-encoding=[gzip, deflate, sdch], Accept-Language=[zh-CN,zh;q=0.8], connection=[keep-alive], Content-Type=[null], Host=[127.0.0.1:8088], Referer=[http://127.0.0.1:8088/web/rest], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36]}
+--------------------------------------
+[INFO] [2017-05-30 22:37:00][org.apache.cxf.interceptor.LoggingOutInterceptor]Outbound Message
+---------------------------
+ID: 2
+Response-Code: 200
+Content-Type: 
+Headers: {Content-Type=[application/xml], Date=[Tue, 30 May 2017 14:37:00 GMT]}
+Payload: <application xmlns="http://wadl.dev.java.net/2009/02" xmlns:xs="http://www.w3.org/2001/XMLSchema"><grammars><xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="unqualified">
+    <xs:element name="User" type="user"/>
+    <xs:complexType name="user">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="created" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="email" type="xs:string"/>
+            <xs:element minOccurs="0" name="id" type="xs:long"/>
+            <xs:element minOccurs="0" name="password" type="xs:string"/>
+            <xs:element minOccurs="0" name="phone" type="xs:string"/>
+            <xs:element minOccurs="0" name="updated" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="username" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
+</grammars><resources base="http://localhost:8088/web/rest/userServiceAddr"><resource path="/userService"><resource path="/searchUser/{id}"><param name="id" style="template" type="xs:int"/><method name="GET"><request></request><response><representation mediaType="application/xml"/><representation mediaType="application/json"/></response></method></resource></resource></resources></application>
+--------------------------------------
