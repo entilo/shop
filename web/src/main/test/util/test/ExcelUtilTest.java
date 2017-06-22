@@ -38,6 +38,6 @@ public class ExcelUtilTest {
 		response.setContentType("application/vnd.ms-excel"); // 改成输出excel文件
 		response.setHeader("Content-disposition", "attachment; filename="
 				+ "fileNameTest10086" + ".xls");
-		ExcelUitl.listToExcel(userMapper.selectAll(), fieldMap, sheetName, response);
+//		ExcelUitl.listToExcel(userMapper.selectAll(), fieldMap, sheetName, response);
 	}
 }
