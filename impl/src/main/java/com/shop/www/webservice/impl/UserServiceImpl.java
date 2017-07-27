@@ -9,7 +9,7 @@ import com.test.www.util.TTAnotation;
 @Service("userService")
 public class UserServiceImpl implements UserService {
 
-	@TTAnotation(time = "this is a time", value = "this is a value")
+	@TTAnotation(time = "this is a time anonation test ", value = "this is a value anonation test")
 	public User getUserBuId(Integer Id) {
 		System.out.println("ids is" + Id);
 		User user = new User();

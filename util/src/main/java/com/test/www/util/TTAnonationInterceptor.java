@@ -14,7 +14,9 @@ public class TTAnonationInterceptor implements MethodInterceptor {
 		Method method=ClassUtils.getMostSpecificMethod(invocation.getMethod(),invocation.getThis().getClass());
 		TTAnotation ttAnonation=method.getAnnotation(TTAnotation.class);
 		System.out.println("time is:"+ttAnonation.time()+""+"\nvalue is:"+ttAnonation.value());
-		return null;
+		// 继续执行之后的流程
+		Object result = invocation.proceed();
+		return result;
 	}
 
 
