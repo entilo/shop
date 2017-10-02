@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
 
 import javax.inject.Inject;
 
@@ -44,7 +46,18 @@ public class TestThread {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		User us = taskResults.get(0).get();
+		User us = null;
+		try {
+//			taskResults.get(0).get();
+			us = taskResults.get(0).get(1, TimeUnit.SECONDS);
+		} catch (InterruptedException e) {
+
+		} catch (ExecutionException e) {
+
+		} catch (TimeoutException e) {
+
+		}
+
 		System.out.println(us);
 
 	}
