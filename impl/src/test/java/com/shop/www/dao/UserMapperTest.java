@@ -1,6 +1,7 @@
 package com.shop.www.dao;
 
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.Test;
@@ -20,7 +21,17 @@ public class UserMapperTest {
 
 	@Test
 	public void testDeleteByPrimaryKey() {
-
+		List<User> userList = new ArrayList<>();
+		User user=new User();
+		user.setId( 7);
+		User user1=new User();
+		user1.setId( 9);
+		User user2=new User();
+		user2.setId(10);
+		userList.add(user);
+		userList.add(user1);
+		userList.add(user2);
+		System.out.println(userMapper.getByList(userList));
 	}
 
 	@Test

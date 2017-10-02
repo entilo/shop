@@ -5654,3 +5654,1146 @@ java.lang.IllegalArgumentException: warning no match for this type name: annotat
 [INFO] [2017-07-27 23:02:45][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@4c59ee42: startup date [Thu Jul 27 23:02:45 SGT 2017]; root of context hierarchy
 [INFO] [2017-07-27 23:02:45][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
 [INFO] [2017-07-27 23:02:45][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@4c59ee42: startup date [Thu Jul 27 23:02:45 SGT 2017]; root of context hierarchy
+[INFO] [2017-07-27 23:30:12][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-dao.xml]
+[INFO] [2017-07-27 23:30:13][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@3a333bdb: startup date [Thu Jul 27 23:30:13 SGT 2017]; root of context hierarchy
+[INFO] [2017-07-27 23:30:13][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2017-07-27 23:30:13][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-07-27 23:30:13][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO] [2017-07-27 23:30:14][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO] [2017-07-27 23:30:16][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource]Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> c3p0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 3000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgfawx9p10t77k61bbb2f4|24c6ece4, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgfawx9p10t77k61bbb2f4|24c6ece4, idleConnectionTestPeriod -> 18000, initialPoolSize -> 1, jdbcUrl -> jdbc:mysql://localhost:3306/shop?useUnicode=true&characterEncoding=UTF-8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 1, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[INFO] [2017-07-27 23:30:16][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-07-27 23:30:17][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@53bc93fe: startup date [Thu Jul 27 23:30:17 SGT 2017]; root of context hierarchy
+[INFO] [2017-07-27 23:30:17][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-07-27 23:30:17][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@53bc93fe: startup date [Thu Jul 27 23:30:17 SGT 2017]; root of context hierarchy
+[INFO] [2017-07-27 23:30:17][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@3a333bdb: startup date [Thu Jul 27 23:30:13 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:28:23][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-dao.xml]
+[INFO] [2017-09-01 23:28:24][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@766b2325: startup date [Fri Sep 01 23:28:24 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:28:24][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2017-09-01 23:28:24][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-09-01 23:28:24][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO] [2017-09-01 23:28:25][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO] [2017-09-01 23:28:27][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@766b2325: startup date [Fri Sep 01 23:28:24 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:28:55][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-dao.xml]
+[INFO] [2017-09-01 23:28:55][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@73d08edf: startup date [Fri Sep 01 23:28:55 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:28:56][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2017-09-01 23:28:56][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-09-01 23:28:56][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO] [2017-09-01 23:28:56][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO] [2017-09-01 23:28:57][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@73d08edf: startup date [Fri Sep 01 23:28:55 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:29:27][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-dao.xml]
+[INFO] [2017-09-01 23:29:27][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@766b2325: startup date [Fri Sep 01 23:29:27 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:29:27][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2017-09-01 23:29:27][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-09-01 23:29:27][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO] [2017-09-01 23:29:28][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO] [2017-09-01 23:29:29][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@766b2325: startup date [Fri Sep 01 23:29:27 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:30:11][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-dao.xml]
+[INFO] [2017-09-01 23:30:12][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@1540de0: startup date [Fri Sep 01 23:30:12 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:30:12][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2017-09-01 23:30:12][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-09-01 23:30:12][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO] [2017-09-01 23:30:12][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO] [2017-09-01 23:30:13][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@1540de0: startup date [Fri Sep 01 23:30:12 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:30:32][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-dao.xml]
+[INFO] [2017-09-01 23:30:32][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@1540de0: startup date [Fri Sep 01 23:30:32 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:30:33][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2017-09-01 23:30:33][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-09-01 23:30:33][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO] [2017-09-01 23:30:33][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO] [2017-09-01 23:30:34][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@1540de0: startup date [Fri Sep 01 23:30:32 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:31:02][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-dao.xml]
+[INFO] [2017-09-01 23:31:02][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@73d08edf: startup date [Fri Sep 01 23:31:02 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:31:02][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2017-09-01 23:31:02][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-09-01 23:31:02][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO] [2017-09-01 23:31:03][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO] [2017-09-01 23:31:04][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@73d08edf: startup date [Fri Sep 01 23:31:02 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:31:23][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-dao.xml]
+[INFO] [2017-09-01 23:31:23][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@1540de0: startup date [Fri Sep 01 23:31:23 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:31:23][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2017-09-01 23:31:23][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-09-01 23:31:23][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO] [2017-09-01 23:31:23][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[ERROR] [2017-09-01 23:31:24][org.springframework.test.context.TestContextManager]Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@342e157d] to prepare test instance [com.shop.www.dao.UserMapperTest@3d84dc4e]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.DefaultTestContext.getApplicationContext(DefaultTestContext.java:101)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:326)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:232)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory_main' defined in URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-dao.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\impl\target\classes\com\shop\www\dao\impl\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 27; columnNumber: 25; 与元素类型 "collection" 相关联的属性 "{1}" 应有左引号。
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:681)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:121)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:250)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContextInternal(CacheAwareContextLoaderDelegate.java:64)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:91)
+	... 25 more
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\impl\target\classes\com\shop\www\dao\impl\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 27; columnNumber: 25; 与元素类型 "collection" 相关联的属性 "{1}" 应有左引号。
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:466)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:340)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	... 40 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 27; columnNumber: 25; 与元素类型 "collection" 相关联的属性 "{1}" 应有左引号。
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:256)
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:125)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:78)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:462)
+	... 43 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 27; columnNumber: 25; 与元素类型 "collection" 相关联的属性 "{1}" 应有左引号。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:254)
+	... 46 more
+[INFO] [2017-09-01 23:32:48][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-dao.xml]
+[INFO] [2017-09-01 23:32:48][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@1540de0: startup date [Fri Sep 01 23:32:48 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:32:48][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2017-09-01 23:32:48][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-09-01 23:32:48][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO] [2017-09-01 23:32:48][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[ERROR] [2017-09-01 23:32:49][org.springframework.test.context.TestContextManager]Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@53e1125e] to prepare test instance [com.shop.www.dao.UserMapperTest@5d7d0457]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.DefaultTestContext.getApplicationContext(DefaultTestContext.java:101)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:326)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:232)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory_main' defined in URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-dao.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\impl\target\classes\com\shop\www\dao\impl\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 27; columnNumber: 25; 与元素类型 "collection" 相关联的属性 "{1}" 应有左引号。
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:681)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:121)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:250)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContextInternal(CacheAwareContextLoaderDelegate.java:64)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:91)
+	... 25 more
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\impl\target\classes\com\shop\www\dao\impl\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 27; columnNumber: 25; 与元素类型 "collection" 相关联的属性 "{1}" 应有左引号。
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:466)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:340)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	... 40 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 27; columnNumber: 25; 与元素类型 "collection" 相关联的属性 "{1}" 应有左引号。
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:256)
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:125)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:78)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:462)
+	... 43 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 27; columnNumber: 25; 与元素类型 "collection" 相关联的属性 "{1}" 应有左引号。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:254)
+	... 46 more
+[INFO] [2017-09-01 23:33:05][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-dao.xml]
+[INFO] [2017-09-01 23:33:06][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@766b2325: startup date [Fri Sep 01 23:33:06 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:33:06][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2017-09-01 23:33:06][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-09-01 23:33:06][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO] [2017-09-01 23:33:06][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[ERROR] [2017-09-01 23:33:07][org.springframework.test.context.TestContextManager]Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3f86f0d8] to prepare test instance [com.shop.www.dao.UserMapperTest@342e157d]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.DefaultTestContext.getApplicationContext(DefaultTestContext.java:101)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:326)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:232)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory_main' defined in URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-dao.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\impl\target\classes\com\shop\www\dao\impl\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 27; columnNumber: 25; 与元素类型 "collection" 相关联的属性 "{1}" 应有左引号。
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:681)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:121)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:250)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContextInternal(CacheAwareContextLoaderDelegate.java:64)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:91)
+	... 25 more
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\shop\impl\target\classes\com\shop\www\dao\impl\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 27; columnNumber: 25; 与元素类型 "collection" 相关联的属性 "{1}" 应有左引号。
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:466)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:340)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	... 40 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 27; columnNumber: 25; 与元素类型 "collection" 相关联的属性 "{1}" 应有左引号。
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:256)
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:125)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:78)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:462)
+	... 43 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 27; columnNumber: 25; 与元素类型 "collection" 相关联的属性 "{1}" 应有左引号。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:254)
+	... 46 more
+[INFO] [2017-09-01 23:33:30][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-dao.xml]
+[INFO] [2017-09-01 23:33:30][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@1540de0: startup date [Fri Sep 01 23:33:30 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:33:31][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2017-09-01 23:33:31][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-09-01 23:33:31][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO] [2017-09-01 23:33:31][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO] [2017-09-01 23:33:33][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource]Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> c3p0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 3000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgfawx9qh821uf1gdths1|1812344b, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgfawx9qh821uf1gdths1|1812344b, idleConnectionTestPeriod -> 18000, initialPoolSize -> 1, jdbcUrl -> jdbc:mysql://localhost:3306/shop?useUnicode=true&characterEncoding=UTF-8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 1, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[INFO] [2017-09-01 23:33:33][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@1540de0: startup date [Fri Sep 01 23:33:30 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:33:41][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-dao.xml]
+[INFO] [2017-09-01 23:33:41][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@73d08edf: startup date [Fri Sep 01 23:33:41 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:33:42][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2017-09-01 23:33:42][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-09-01 23:33:42][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO] [2017-09-01 23:33:42][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO] [2017-09-01 23:33:43][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource]Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> c3p0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 3000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgfawx9qh82adc1yz8p1h|53273445, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgfawx9qh82adc1yz8p1h|53273445, idleConnectionTestPeriod -> 18000, initialPoolSize -> 1, jdbcUrl -> jdbc:mysql://localhost:3306/shop?useUnicode=true&characterEncoding=UTF-8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 1, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[INFO] [2017-09-01 23:33:43][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@73d08edf: startup date [Fri Sep 01 23:33:41 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:34:16][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-dao.xml]
+[INFO] [2017-09-01 23:34:16][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@1540de0: startup date [Fri Sep 01 23:34:16 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:34:16][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2017-09-01 23:34:16][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-09-01 23:34:16][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO] [2017-09-01 23:34:17][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO] [2017-09-01 23:34:19][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@1540de0: startup date [Fri Sep 01 23:34:16 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:35:16][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-dao.xml]
+[INFO] [2017-09-01 23:35:16][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@1540de0: startup date [Fri Sep 01 23:35:16 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:35:16][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2017-09-01 23:35:16][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-09-01 23:35:16][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO] [2017-09-01 23:35:17][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO] [2017-09-01 23:35:18][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource]Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> c3p0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 3000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgfawx9qh84bhockc35d|1812344b, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgfawx9qh84bhockc35d|1812344b, idleConnectionTestPeriod -> 18000, initialPoolSize -> 1, jdbcUrl -> jdbc:mysql://localhost:3306/shop?useUnicode=true&characterEncoding=UTF-8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 1, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[INFO] [2017-09-01 23:35:18][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@1540de0: startup date [Fri Sep 01 23:35:16 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:36:21][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-dao.xml]
+[INFO] [2017-09-01 23:36:21][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@355aedce: startup date [Fri Sep 01 23:36:21 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:36:22][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2017-09-01 23:36:22][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-09-01 23:36:22][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO] [2017-09-01 23:36:22][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO] [2017-09-01 23:36:23][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@355aedce: startup date [Fri Sep 01 23:36:21 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:36:56][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-dao.xml]
+[INFO] [2017-09-01 23:36:56][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6caf446: startup date [Fri Sep 01 23:36:56 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:36:57][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2017-09-01 23:36:57][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-09-01 23:36:57][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO] [2017-09-01 23:36:57][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO] [2017-09-01 23:36:58][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource]Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> c3p0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 3000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgfawx9qh86gql1px2jht|2ea866d6, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgfawx9qh86gql1px2jht|2ea866d6, idleConnectionTestPeriod -> 18000, initialPoolSize -> 1, jdbcUrl -> jdbc:mysql://localhost:3306/shop?useUnicode=true&characterEncoding=UTF-8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 1, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[INFO] [2017-09-01 23:36:58][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6caf446: startup date [Fri Sep 01 23:36:56 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:38:03][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-dao.xml]
+[INFO] [2017-09-01 23:38:03][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@73d08edf: startup date [Fri Sep 01 23:38:03 SGT 2017]; root of context hierarchy
+[INFO] [2017-09-01 23:38:03][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2017-09-01 23:38:03][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-09-01 23:38:03][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO] [2017-09-01 23:38:04][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[INFO] [2017-09-01 23:38:05][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource]Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> c3p0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 3000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgfawx9qh87w5dw3tnei|70dc6f58, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgfawx9qh87w5dw3tnei|70dc6f58, idleConnectionTestPeriod -> 18000, initialPoolSize -> 1, jdbcUrl -> jdbc:mysql://localhost:3306/shop?useUnicode=true&characterEncoding=UTF-8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 1, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[INFO] [2017-09-01 23:38:05][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@73d08edf: startup date [Fri Sep 01 23:38:03 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 20:33:32][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@625a80df: startup date [Mon Oct 02 20:33:32 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 20:33:32][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[ERROR] [2017-10-02 20:33:32][org.springframework.test.context.TestContextManager]Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@644a5ddd] to prepare test instance [com.shop.www.test.TestThread@4e588b9b]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.shop.www.test.TestThread': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor com.shop.www.test.TestThread.exc; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.inject.Inject()}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:292)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:384)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:110)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:326)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:232)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor com.shop.www.test.TestThread.exc; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.inject.Inject()}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:289)
+	... 26 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.inject.Inject()}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1100)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:960)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:855)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:480)
+	... 28 more
+[INFO] [2017-10-02 20:33:32][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@625a80df: startup date [Mon Oct 02 20:33:32 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 20:34:44][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@625a80df: startup date [Mon Oct 02 20:34:44 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 20:34:44][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[ERROR] [2017-10-02 20:34:44][org.springframework.test.context.TestContextManager]Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@644a5ddd] to prepare test instance [com.shop.www.test.TestThread@4e588b9b]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.shop.www.test.TestThread': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor com.shop.www.test.TestThread.exc; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.inject.Inject()}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:292)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:384)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:110)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:326)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:232)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor com.shop.www.test.TestThread.exc; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.inject.Inject()}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:289)
+	... 26 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.inject.Inject()}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1100)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:960)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:855)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:480)
+	... 28 more
+[INFO] [2017-10-02 20:34:44][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@625a80df: startup date [Mon Oct 02 20:34:44 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 20:36:29][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6a6215db: startup date [Mon Oct 02 20:36:29 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 20:36:29][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[ERROR] [2017-10-02 20:36:30][org.springframework.test.context.TestContextManager]Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@58b37561] to prepare test instance [com.shop.www.test.TestThread@6ddf60c5]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.shop.www.test.TestThread': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor com.shop.www.test.TestThread.exc; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.inject.Inject()}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:292)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:384)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:110)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:326)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:232)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor com.shop.www.test.TestThread.exc; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.inject.Inject()}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:289)
+	... 26 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.inject.Inject()}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1100)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:960)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:855)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:480)
+	... 28 more
+[INFO] [2017-10-02 20:36:30][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6a6215db: startup date [Mon Oct 02 20:36:29 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 20:36:58][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@23c2e2eb: startup date [Mon Oct 02 20:36:58 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 20:36:58][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[ERROR] [2017-10-02 20:36:58][org.springframework.test.context.TestContextManager]Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1735954c] to prepare test instance [com.shop.www.test.TestThread@3edcbc7b]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.shop.www.test.TestThread': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor com.shop.www.test.TestThread.exc; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:292)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:384)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:110)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:326)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:232)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor com.shop.www.test.TestThread.exc; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:289)
+	... 26 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1100)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:960)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:855)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:480)
+	... 28 more
+[INFO] [2017-10-02 20:36:58][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@23c2e2eb: startup date [Mon Oct 02 20:36:58 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 20:37:37][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 20:37:37][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@4c59ee42: startup date [Mon Oct 02 20:37:37 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 20:37:38][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 20:37:38][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@4c59ee42: startup date [Mon Oct 02 20:37:37 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 20:38:17][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[ERROR] [2017-10-02 20:38:17][org.springframework.test.context.TestContextManager]Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4d80948f] to prepare test instance [com.shop.www.test.TestThread@34996009]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.DefaultTestContext.getApplicationContext(DefaultTestContext.java:101)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:326)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:232)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]; nested exception is java.io.FileNotFoundException: \spring-beans.dtd (系统找不到指定的文件。)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:409)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:335)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:303)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:251)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:235)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:118)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:250)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContextInternal(CacheAwareContextLoaderDelegate.java:64)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:91)
+	... 25 more
+Caused by: java.io.FileNotFoundException: \spring-beans.dtd (系统找不到指定的文件。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startDTDEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDTDScannerImpl.setInputSource(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.dispatch(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:428)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:390)
+	... 38 more
+[INFO] [2017-10-02 20:39:16][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[ERROR] [2017-10-02 20:39:16][org.springframework.test.context.TestContextManager]Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@77905258] to prepare test instance [com.shop.www.test.TestThread@240e4cbb]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.DefaultTestContext.getApplicationContext(DefaultTestContext.java:101)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:326)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:232)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 2 in XML document from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 8; cvc-elt.1: 找不到元素 'beans' 的声明。
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:398)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:335)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:303)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:251)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:235)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:118)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:250)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContextInternal(CacheAwareContextLoaderDelegate.java:64)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:91)
+	... 25 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 8; cvc-elt.1: 找不到元素 'beans' 的声明。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:428)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:390)
+	... 38 more
+[INFO] [2017-10-02 20:40:25][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 20:40:25][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@10d55478: startup date [Mon Oct 02 20:40:25 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 20:40:25][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 20:40:26][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 20:40:26][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@10d55478: startup date [Mon Oct 02 20:40:25 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 20:40:26][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 20:45:16][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 20:45:16][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6bf15d27: startup date [Mon Oct 02 20:45:16 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 20:45:16][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 20:45:16][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[ERROR] [2017-10-02 20:45:16][org.springframework.test.context.TestContextManager]Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@31579177] to prepare test instance [com.shop.www.test.TestThread@6c0f34ef]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.shop.www.test.TestThread': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.shop.www.webservice.UserService com.shop.www.test.TestThread.userService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.shop.www.webservice.UserService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.inject.Inject()}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:292)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:384)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:110)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:326)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:232)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.shop.www.webservice.UserService com.shop.www.test.TestThread.userService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.shop.www.webservice.UserService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.inject.Inject()}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:289)
+	... 26 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.shop.www.webservice.UserService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.inject.Inject()}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1100)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:960)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:855)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:480)
+	... 28 more
+[INFO] [2017-10-02 20:45:16][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6bf15d27: startup date [Mon Oct 02 20:45:16 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 20:45:16][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 20:46:03][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 20:46:04][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@369ca84f: startup date [Mon Oct 02 20:46:04 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 20:46:04][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 20:46:04][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 20:46:04][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@369ca84f: startup date [Mon Oct 02 20:46:04 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 20:46:04][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 20:58:37][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@51504155: startup date [Mon Oct 02 20:58:37 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 20:58:37][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[ERROR] [2017-10-02 20:58:37][org.springframework.test.context.TestContextManager]Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@451094e7] to prepare test instance [com.shop.www.test.TestThread@439fed1d]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.shop.www.test.TestThread': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor com.shop.www.test.TestThread.exc; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:292)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:384)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:110)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:326)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:232)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor com.shop.www.test.TestThread.exc; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:289)
+	... 26 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1100)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:960)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:855)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:480)
+	... 28 more
+[INFO] [2017-10-02 20:58:37][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@51504155: startup date [Mon Oct 02 20:58:37 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:00:29][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:00:29][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-dao.xml]
+[INFO] [2017-10-02 21:00:30][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@331ae2ce: startup date [Mon Oct 02 21:00:30 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:00:30][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [db.properties]
+[INFO] [2017-10-02 21:00:30][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:00:30][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:00:30][com.mchange.v2.log.MLog]MLog clients using log4j logging.
+[INFO] [2017-10-02 21:00:31][com.mchange.v2.c3p0.C3P0Registry]Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+[ERROR] [2017-10-02 21:00:32][org.springframework.test.context.TestContextManager]Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@53b74334] to prepare test instance [com.shop.www.test.TestThread@249d35dc]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.shop.www.test.TestThread': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.shop.www.webservice.UserService com.shop.www.test.TestThread.userService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.shop.www.webservice.UserService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.inject.Inject()}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:292)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:384)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:110)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:326)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:232)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.shop.www.webservice.UserService com.shop.www.test.TestThread.userService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.shop.www.webservice.UserService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.inject.Inject()}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:289)
+	... 26 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [com.shop.www.webservice.UserService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.inject.Inject()}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1100)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:960)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:855)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:480)
+	... 28 more
+[INFO] [2017-10-02 21:00:32][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@331ae2ce: startup date [Mon Oct 02 21:00:30 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:00:32][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:01:20][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:01:20][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:01:20][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@331ae2ce: startup date [Mon Oct 02 21:01:20 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:01:20][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:01:20][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:01:21][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@331ae2ce: startup date [Mon Oct 02 21:01:20 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:01:21][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:02:11][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:02:11][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:02:12][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@331ae2ce: startup date [Mon Oct 02 21:02:12 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:02:12][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:02:12][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:02:12][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@331ae2ce: startup date [Mon Oct 02 21:02:12 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:02:12][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:02:19][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:02:19][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:02:19][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@2a205c98: startup date [Mon Oct 02 21:02:19 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:02:20][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:02:20][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:02:20][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@2a205c98: startup date [Mon Oct 02 21:02:19 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:02:20][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:02:27][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:02:27][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:02:27][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@331ae2ce: startup date [Mon Oct 02 21:02:27 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:02:27][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:02:27][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:02:28][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@331ae2ce: startup date [Mon Oct 02 21:02:27 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:02:28][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:02:51][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:02:51][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:02:51][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@2a205c98: startup date [Mon Oct 02 21:02:51 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:02:51][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:02:52][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:02:52][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@2a205c98: startup date [Mon Oct 02 21:02:51 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:02:52][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:03:22][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:03:22][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:03:22][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6dbaa46d: startup date [Mon Oct 02 21:03:22 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:03:22][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:03:22][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:03:22][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6dbaa46d: startup date [Mon Oct 02 21:03:22 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:03:22][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:06:21][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:06:21][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:06:21][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@2a205c98: startup date [Mon Oct 02 21:06:21 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:06:22][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:06:22][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:06:22][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@2a205c98: startup date [Mon Oct 02 21:06:21 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:06:22][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:06:29][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:06:30][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:06:30][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@2a205c98: startup date [Mon Oct 02 21:06:30 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:06:30][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:06:30][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:06:30][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@2a205c98: startup date [Mon Oct 02 21:06:30 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:06:30][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:12:28][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:12:28][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:12:28][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6a0c282b: startup date [Mon Oct 02 21:12:28 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:12:29][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:12:29][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:12:29][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6a0c282b: startup date [Mon Oct 02 21:12:28 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:12:29][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:13:06][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:13:06][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:13:06][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@44215571: startup date [Mon Oct 02 21:13:06 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:13:06][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:13:06][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:13:07][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@44215571: startup date [Mon Oct 02 21:13:06 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:13:07][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:13:28][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:13:28][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:13:29][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@329f14c3: startup date [Mon Oct 02 21:13:29 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:13:29][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:13:29][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:13:29][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@329f14c3: startup date [Mon Oct 02 21:13:29 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:13:29][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:14:23][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:14:23][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:14:23][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@687090a8: startup date [Mon Oct 02 21:14:23 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:14:23][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:14:23][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:14:24][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@687090a8: startup date [Mon Oct 02 21:14:23 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:14:24][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:15:58][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:15:59][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:15:59][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@36293b29: startup date [Mon Oct 02 21:15:59 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:15:59][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:15:59][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:15:59][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@36293b29: startup date [Mon Oct 02 21:15:59 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:15:59][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:16:13][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:16:13][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:16:13][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@36293b29: startup date [Mon Oct 02 21:16:13 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:16:14][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:16:14][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:16:14][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@36293b29: startup date [Mon Oct 02 21:16:13 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:16:14][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:16:37][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:16:37][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:16:37][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@44215571: startup date [Mon Oct 02 21:16:37 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:16:37][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:16:38][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:16:38][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@44215571: startup date [Mon Oct 02 21:16:37 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:16:38][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:17:12][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:17:12][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:17:12][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@4ceb1c86: startup date [Mon Oct 02 21:17:12 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:17:12][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:17:12][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:17:13][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@4ceb1c86: startup date [Mon Oct 02 21:17:12 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:17:13][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:18:00][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:18:00][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:18:00][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@44215571: startup date [Mon Oct 02 21:18:00 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:18:00][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:18:01][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:18:01][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@44215571: startup date [Mon Oct 02 21:18:00 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:18:01][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:18:58][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:18:58][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:18:58][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@329f14c3: startup date [Mon Oct 02 21:18:58 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:18:58][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:18:59][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:18:59][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@329f14c3: startup date [Mon Oct 02 21:18:58 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:18:59][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:19:08][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:19:08][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:19:09][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@2ee5e48a: startup date [Mon Oct 02 21:19:09 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:19:09][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:19:09][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:19:09][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@2ee5e48a: startup date [Mon Oct 02 21:19:09 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:19:09][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:19:32][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:19:33][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:19:33][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@78812862: startup date [Mon Oct 02 21:19:33 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:19:33][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:19:33][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:19:33][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@78812862: startup date [Mon Oct 02 21:19:33 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:19:33][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:20:27][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:20:27][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:20:27][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@369ca84f: startup date [Mon Oct 02 21:20:27 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:20:27][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:20:27][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:20:28][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@369ca84f: startup date [Mon Oct 02 21:20:27 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:20:28][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:21:35][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:21:35][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:21:35][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@5bd55614: startup date [Mon Oct 02 21:21:35 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:21:35][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:21:35][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:21:36][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@5bd55614: startup date [Mon Oct 02 21:21:35 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:21:36][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:23:23][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:23:23][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:23:24][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@85deafc: startup date [Mon Oct 02 21:23:24 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:23:24][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:23:24][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:23:24][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@85deafc: startup date [Mon Oct 02 21:23:24 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:23:24][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:24:50][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:24:50][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:24:50][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@57690d7a: startup date [Mon Oct 02 21:24:50 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:24:51][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:24:51][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:24:51][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@57690d7a: startup date [Mon Oct 02 21:24:50 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:24:51][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:28:02][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:28:03][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:28:03][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@57690d7a: startup date [Mon Oct 02 21:28:03 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:28:03][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:28:03][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:28:03][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@57690d7a: startup date [Mon Oct 02 21:28:03 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:28:03][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:28:58][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:28:58][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:28:58][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@53194879: startup date [Mon Oct 02 21:28:58 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:28:58][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:28:58][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:30:49][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@53194879: startup date [Mon Oct 02 21:28:58 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:30:49][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:31:28][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:31:28][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:31:29][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@254ce181: startup date [Mon Oct 02 21:31:29 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:31:29][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:31:29][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:32:08][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:32:08][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:32:08][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@57690d7a: startup date [Mon Oct 02 21:32:08 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:32:08][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:32:08][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:32:09][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@57690d7a: startup date [Mon Oct 02 21:32:08 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:32:09][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:32:14][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:32:14][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:32:14][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@254ce181: startup date [Mon Oct 02 21:32:14 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:32:14][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:32:14][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:32:59][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:32:59][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:32:59][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@20e52a8e: startup date [Mon Oct 02 21:32:59 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:32:59][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:33:00][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:35:26][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:35:26][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:35:26][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@13066a26: startup date [Mon Oct 02 21:35:26 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:35:26][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:35:26][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:35:27][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@13066a26: startup date [Mon Oct 02 21:35:26 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:35:27][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:39:43][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:39:44][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:39:44][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@5bd55614: startup date [Mon Oct 02 21:39:44 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:39:44][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:39:44][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:39:44][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@5bd55614: startup date [Mon Oct 02 21:39:44 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:39:44][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:43:59][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:43:59][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:43:59][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@5bd55614: startup date [Mon Oct 02 21:43:59 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:43:59][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:43:59][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:44:00][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@5bd55614: startup date [Mon Oct 02 21:43:59 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:44:00][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:45:12][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:45:13][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:45:13][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@5bd55614: startup date [Mon Oct 02 21:45:13 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:45:13][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:45:13][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:45:13][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@5bd55614: startup date [Mon Oct 02 21:45:13 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:45:13][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:45:33][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:45:33][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:45:33][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@a22ee8c: startup date [Mon Oct 02 21:45:33 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:45:34][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:45:34][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:45:34][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@a22ee8c: startup date [Mon Oct 02 21:45:33 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:45:34][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:46:20][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:46:20][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:46:21][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@5bd55614: startup date [Mon Oct 02 21:46:21 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:46:21][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:46:21][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:46:21][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@5bd55614: startup date [Mon Oct 02 21:46:21 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:46:21][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:48:14][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 21:48:15][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 21:48:15][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@4ceb1c86: startup date [Mon Oct 02 21:48:15 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:48:15][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 21:48:15][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 21:48:15][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@4ceb1c86: startup date [Mon Oct 02 21:48:15 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 21:48:15][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 22:12:04][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 22:12:05][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 22:12:05][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@36293b29: startup date [Mon Oct 02 22:12:05 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 22:12:05][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 22:12:05][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 22:12:05][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@36293b29: startup date [Mon Oct 02 22:12:05 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 22:12:05][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 22:13:53][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 22:13:53][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 22:13:53][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@5f9dc8dd: startup date [Mon Oct 02 22:13:53 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 22:13:53][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 22:13:53][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 22:13:55][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@5f9dc8dd: startup date [Mon Oct 02 22:13:53 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 22:13:55][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 22:16:17][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 22:16:18][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 22:16:18][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@25b199c3: startup date [Mon Oct 02 22:16:18 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 22:16:18][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 22:16:18][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 22:17:39][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@25b199c3: startup date [Mon Oct 02 22:16:18 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 22:17:39][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 22:17:57][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 22:17:58][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 22:17:58][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@36293b29: startup date [Mon Oct 02 22:17:58 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 22:17:58][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 22:17:58][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 22:17:59][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@36293b29: startup date [Mon Oct 02 22:17:58 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 22:17:59][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 22:18:05][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 22:18:05][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 22:18:05][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@4ba43077: startup date [Mon Oct 02 22:18:05 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 22:18:05][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 22:18:05][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 22:41:24][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 22:41:24][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 22:41:24][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@6fee5635: startup date [Mon Oct 02 22:41:24 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 22:41:24][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 22:41:24][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 22:41:25][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@6fee5635: startup date [Mon Oct 02 22:41:24 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 22:41:25][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 22:48:31][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 22:48:31][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 22:48:31][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@85deafc: startup date [Mon Oct 02 22:48:31 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 22:48:31][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 22:48:32][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 22:48:33][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@85deafc: startup date [Mon Oct 02 22:48:31 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 22:48:33][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 22:48:48][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 22:48:48][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 22:48:48][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@7809ead8: startup date [Mon Oct 02 22:48:48 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 22:48:48][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 22:48:49][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 22:50:11][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@7809ead8: startup date [Mon Oct 02 22:48:48 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 22:50:11][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 22:50:33][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 22:50:34][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 22:50:34][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@4dee4aae: startup date [Mon Oct 02 22:50:34 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 22:50:34][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 22:50:34][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 22:50:35][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@4dee4aae: startup date [Mon Oct 02 22:50:34 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 22:50:35][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO] [2017-10-02 22:52:04][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/thread.xml]
+[INFO] [2017-10-02 22:52:04][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from URL [file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%208.0/webapps/shop/impl/target/classes/spring-anonation.xml]
+[INFO] [2017-10-02 22:52:05][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@85deafc: startup date [Mon Oct 02 22:52:05 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 22:52:05][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-10-02 22:52:05][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO] [2017-10-02 22:52:06][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@85deafc: startup date [Mon Oct 02 22:52:05 SGT 2017]; root of context hierarchy
+[INFO] [2017-10-02 22:52:06][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
